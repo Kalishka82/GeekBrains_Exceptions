@@ -26,14 +26,4 @@ public class ex_01 {
         int number = Integer.parseInt(str);
         return number;
     }
-
-    public static int sumMatrix(int[][] matrix) {
-        int sum = 0;
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j <= matrix[1].length; j++) {
-                sum += matrix[i][j];
-            }
-        }
-        return sum;
-    }
 }
